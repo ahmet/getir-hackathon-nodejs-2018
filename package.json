@@ -1,0 +1,33 @@
+{
+  "name": "gbh",
+  "version": "0.0.1",
+  "private": true,
+  "description": "sst for gbh",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha test/**/*.js"
+  },
+  "author": "Ahmet AYGÜN <me@ahmetaygun.net>",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expect": "^22.1.0",
+    "mocha": "^5.0.0",
+    "supertest": "^3.0.0"
+  }
+}
